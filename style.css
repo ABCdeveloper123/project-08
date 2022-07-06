@@ -44,7 +44,7 @@
 
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+
     font-size: 20px;
 }
 
@@ -78,8 +78,8 @@
     padding: 25px, 148px;
     width: 120px;
     height: 135px;
-    margin-right: -90px;
-    margin-left: 190px;
+    margin-right: -110px;
+    margin-left: 200px;
     line-height: 130px;
 
 }
@@ -96,27 +96,45 @@
 }
 
 .input-amount {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    height: 60px;
 }
 
 .input-amount input {
     border: none;
-    width: 190px;
-    height: 30px;
-    padding: 12px, 40px;
-    margin: 8px, 80px;
+    width: 890px;
+    height: 100px;
+
+    margin: 40px, -30px;
     box-sizing: border-box;
-    border-bottom: 23px, solid rgb(90, 87, 87);
+    border-bottom: 3px solid rgb(90, 87, 87);
     font-size: 15px;
     color: #4CAF50;
     text-align: center;
+    padding-top: 59px;
+
+}
+
+.input-amount input {
+    outline: none;
 }
 
 .donate-button a {
+
+    background-color: hsl(40, 98%, 51%);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+
+    text-align: center;
     text-decoration: none;
-    color: #fff;
-    padding: 13px, 30px;
-    background-color: tomato;
+
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
+
+}
+
+.donate-button {
+    margin-bottom: 200px;
 }
